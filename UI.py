@@ -41,8 +41,26 @@ with col2:
     "make_model": make_model
     
     }
+   
+   my_dict1 = {
+    "make_model": make_model,
+    'Gearing_Type':gearing_type,
+    "Type":"Used",
+    "Gears":Gears,
+    "age": age,
+    "hp_kW": hp,
+    "km": km,
+    "Previous_Owners":Previous_Owners
+    }
+
+   
    df = pd.DataFrame.from_dict([my_dict])
+   df1 = pd.DataFrame.from_dict([my_dict1])
+   
    df2 = ds13_transformer.transform(df)
+   df21 = ds13_transformer.transform(df1)
+
+   
    button = st.button("Dtermine")
    st.markdown("""
          <style>
