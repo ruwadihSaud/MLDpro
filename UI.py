@@ -30,6 +30,7 @@ with col2:
    ds13_transformer = pickle.load(open('transformer', 'rb'))
 
    ds13_transformer1 = pickle.load(open('transformer1', 'rb'))
+   ds13_model1 = pickle.load(open('new', 'rb'))
 
 
    my_dict = {
