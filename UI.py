@@ -29,6 +29,8 @@ with col2:
    ds13_model=pickle.load(open("rsn","rb"))
    ds13_transformer = pickle.load(open('transformer', 'rb'))
 
+   ds14_model=pickle.load(open("new","rb"))
+
 
    my_dict = {
     "age": age,
