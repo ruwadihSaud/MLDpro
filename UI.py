@@ -61,6 +61,10 @@ with col2:
    df21 = ds13_transformer.transform(df1)
 
    
+   st.markdown("""
+         <style>
+         {text-align:center}
+          </style>""", unsafe_allow_html=True)
    button = st.button("Dtermine")
    st.markdown("""
          <style>
