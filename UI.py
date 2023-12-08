@@ -7,7 +7,6 @@ import streamlit as st
 from PIL import Image, ImageDraw
 from sklearn.ensemble import RandomForestRegressor
 
-st.set_page_config(layout="wide")
 st.set_page_config(page_title="Priceing", page_icon=":car:", layout="centered", initial_sidebar_state="auto", menu_items=None)
 st.markdown("<h1 style='text-align: center; color: #D04747;'>Determine The Price Of Your Car</h1>", unsafe_allow_html=True)
 col1, col2, col3 = st.columns(3)
